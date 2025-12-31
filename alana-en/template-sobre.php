@@ -16,7 +16,7 @@ get_header(); ?>
                     <p>
                         With a dynamic and open approach, she is always ready for new discoveries and experiences, making her a complete and fascinating individual.
                     </p>
-                    <a href="<?php echo get_page_link(InfoVar::show('about')); ?>">
+                    <a href="<?php echo get_page_link(InfoVar::show('contact')); ?>">
                         <button class="flex flex-row gap-2 items-center py-2 px-4 md:py-2 md:px-8 mt-8 bg-marrom-900 text-bege-100 text-xs md:text-lg uppercase font-bold">
                             Contact Us 
                         </button>
