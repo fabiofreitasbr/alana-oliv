@@ -48,7 +48,7 @@ $serviceList = [
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 md:gap-4 px-6 md:px-0 mb-8">
         <?php foreach ($serviceList as $serviceSingle): ?>
-            <a href="<?php echo esc_url(InfoVar::show('whatsapp')); ?>" target="_blank">
+            <a href="<?php echo get_page_link(InfoVar::show('contact')); ?>">
                 <div class="w-full flex flex-col justify-between bg-white border-gray-100 border-1 text-black break-words text-sm sm:text-xl md:text-2xl lg:text-4xl rounded-xl md:rounded-2xl overflow-hidden shadow-md">
                     <img src="<?php echo esc_url($serviceSingle['img']); ?>" alt="" class="w-full" />
                     <div class="px-2 py-2 md:px-4 md:py-4">
@@ -61,8 +61,8 @@ $serviceList = [
                         <hr class="border border-zinc-100" />
                     </div>
                     <button class="w-full flex gap-2 items-center justify-center mb-6 text-marrom-300 text-xs md:text-sm">
-                        Learn More
-                        <i class="fas fa-arrow-right w-2 h-2 md:w-3 md:h-3"></i>
+                        Contact Us 
+                        <i class="fas fa-phone w-2 h-2 md:w-3 md:h-3"></i>
                     </button>
                 </div>
             </a>
