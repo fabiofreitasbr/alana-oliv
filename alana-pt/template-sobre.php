@@ -16,9 +16,9 @@ get_header(); ?>
                     <p>
                         Com uma abordagem dinâmica e aberta, está sempre pronta para novas descobertas e experiências, tornando-se uma pessoa completa e fascinante.
                     </p>
-                    <a href="<?php echo InfoVar::show('whatsapp'); ?>">
+                    <a href="<?php echo get_page_link(InfoVar::show('contact')); ?>">
                         <button class="flex flex-row gap-2 items-center py-2 px-4 md:py-2 md:px-8 mt-8 bg-marrom-900 text-bege-100 text-xs md:text-lg uppercase font-bold">
-                            Saiba Mais
+                            Entrar em contato
                         </button>
                     </a>
                 </div>
@@ -44,9 +44,9 @@ get_header(); ?>
                 <a href="<?php echo InfoVar::show('linkedin'); ?>" target="_blank" class="text-white hover:text-red-500 transition-all">
                     <i class="fab fa-linkedin text-5xl md:text-6xl mx-2"></i>
                 </a>
-                <a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank" class="text-white hover:text-red-500 transition-all">
+                <!-- <a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank" class="text-white hover:text-red-500 transition-all">
                     <i class="fab fa-whatsapp text-5xl md:text-6xl mx-2"></i>
-                </a>
+                </a> -->
             </div>
         </div>
     </section>
