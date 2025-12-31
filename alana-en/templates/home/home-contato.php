@@ -3,7 +3,6 @@
         <div class="container mx-auto px-4">
             <h2 class="font-[Playfair] text-3xl text-verde-500 font-bold text-center mb-4">Contact</h2>
             <div class="md:flex items-center gap-x-8 text-black">
-                <!-- Text and Buttons -->
                 <div class="w-full md:w-1/2">
                     <div class="my-2">
                         <h3 class="text-marrom-900 text-lg md:text-xl font-bold mb-4 text-center lg:text-left">Send a Message</h3>
@@ -11,13 +10,12 @@
                             For questions or proposals, fill out the form. Every detail matters, and your message is the first step.
                         </p>
                     </div>
-
+                    <!-- 
                     <div class="my-4 flex items-center">
                         <hr class="w-full border-zinc-300 border" />
                         <div class="text-zinc-700 font-normal text-xl p-4">OR</div>
                         <hr class="w-full border-zinc-300 border" />
                     </div>
-
                     <div class="block lg:flex gap-x-3 my-4">
                         <a href="<?php echo InfoVar::show('whatsapp'); ?>" class="w-full block" target="_blank" rel="noopener">
                             <button class="w-full bg-verde-100 hover:bg-verde-300 my-4 lg:my-0 py-3 px-2 2xl:px-6 rounded-full text-white md:text-sm 2xl:text-base flex gap-x-2 justify-center items-center uppercase mx-auto transition-all font-normal">
@@ -31,10 +29,9 @@
                                 <div>CALL NOW <span class="hidden xl:inline">RIGHT AWAY!</span></div>
                             </button>
                         </a>
-                    </div>
+                    </div> 
+                    -->
                 </div>
-
-                <!-- Form -->
                 <div class="w-full md:w-1/2">
                     <div class="bg-white md:p-8">
                         <h3 class="text-marrom-900 text-lg md:text-xl font-bold">Get in Touch</h3>

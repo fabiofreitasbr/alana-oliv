@@ -15,7 +15,7 @@ get_header(); ?>
                             Para dúvidas ou propostas, escreva no formulário. Cada detalhe importa, e seu contato é o primeiro passo.
                         </p>
                     </div>
-
+<!-- 
                     <div class="my-4 flex items-center">
                         <hr class="w-full border-zinc-300 border" />
                         <div class="text-zinc-700 font-normal text-xl p-4">OU</div>
@@ -35,7 +35,7 @@ get_header(); ?>
                                 Envie-nos mensagem
                             </button>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="w-full md:w-1/2">

@@ -16,7 +16,7 @@ get_header(); ?>
                         </p>
                     </div>
 
-                    <div class="my-4 flex items-center">
+                    <!-- <div class="my-4 flex items-center">
                         <hr class="w-full border-zinc-300 border" />
                         <div class="text-zinc-700 font-normal text-xl p-4">OR</div>
                         <hr class="w-full border-zinc-300 border" />
@@ -35,7 +35,7 @@ get_header(); ?>
                                 Send us a message
                             </button>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="w-full md:w-1/2">

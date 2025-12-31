@@ -11,13 +11,12 @@
                             Para dúvidas ou propostas, escreva no formulário. Cada detalhe importa, e seu contato é o primeiro passo.
                         </p>
                     </div>
-
+                    <!-- 
                     <div class="my-4 flex items-center">
                         <hr class="w-full border-zinc-300 border" />
                         <div class="text-zinc-700 font-normal text-xl p-4">OU</div>
                         <hr class="w-full border-zinc-300 border" />
                     </div>
-
                     <div class="block lg:flex gap-x-3 my-4">
                         <a href="<?php echo InfoVar::show('whatsapp'); ?>" class="w-full block" target="_blank" rel="noopener">
                             <button class="w-full bg-verde-100 hover:bg-verde-300 my-4 lg:my-0 py-3 px-2 2xl:px-6 rounded-full text-white md:text-sm 2xl:text-base flex gap-x-2 justify-center items-center uppercase mx-auto transition-all font-normal">
@@ -31,10 +30,8 @@
                                 <div>LIGUE AGORA <span class="hidden xl:inline">MESMO!</span></div>
                             </button>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
-
-                <!-- Formulário -->
                 <div class="w-full md:w-1/2">
                     <div class="bg-white md:p-8">
                         <h3 class="text-marrom-900 text-lg md:text-xl font-bold">Entre em contato</h3>
