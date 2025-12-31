@@ -19,11 +19,11 @@ $template_uri = get_template_directory_uri();
                     <i class="fab fa-linkedin w-6 h-6 sm:w-7 sm:h-7 2xl:w-10 2xl:h-10 text-2xl transition-all hover:text-bege-100"></i>
                 </a>
             </div>
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
                 <a target="_blank" href="<?php echo esc_url(InfoVar::show('whatsapp')); ?>">
                     <i class="fab fa-whatsapp w-6 h-6 sm:w-7 sm:h-7 2xl:w-10 2xl:h-10 text-2xl transition-all hover:text-bege-100"></i>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 
