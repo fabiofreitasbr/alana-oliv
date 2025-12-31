@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('/fonts/playfair/static/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('/fonts/playfair/static/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('/fonts/playfair/static/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Seravek';
+  src: url('/fonts/seravek/Seravek.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Seravek';
+  src: url('/fonts/seravek/Seravek-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Seravek';
+  src: url('/fonts/seravek/Seravek-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Continue com outras variações se quiser */
+
+.form-field-2 {
+    @apply bg-zinc-200 text-base lg:text-lg 2xl:text-xl font-light py-3 md:py-3 lg:py-4 block w-full placeholder-stone-800 outline-none px-4 lg:col-span-2;
+}
+
+.form-field-1 {
+    @apply bg-zinc-200 text-base lg:text-lg 2xl:text-xl font-light py-3 md:py-3 lg:py-4 block w-full placeholder-stone-800 outline-none px-4 lg:col-span-1;
+}
+.form-button {
+    @apply flex flex-row gap-2 items-center py-2 px-4 md:py-2 md:px-8 bg-marrom-300 hover:bg-marrom-500 text-white text-xs md:text-lg;
+}
+
+@theme {
+    --color-blue-500: #324881;
+    --color-blue-600: #273A6C;
+    --color-blue-900: #1E2841;
+    --color-blue-920: #1a2541;
+    --color-blue-950: #131B31;
+
+    --color-red-500: #BF2115;
+    --color-red-600: #B20A09;
+
+    --color-zinc-default: #343434;
+
+    --color-bege-100: #F1E0D1;
+    --color-bege-200: #E3CFBD;
+    --color-bege-300: #C0B4A5;
+    --color-bege-500: #91887D;
+    --color-bege-700: #625A55;
+
+    --color-marrom-300: #AA8976;
+    --color-marrom-500: #886D61;
+    --color-marrom-700: #675346;
+    --color-marrom-900: #45362F;
+
+    --color-verde-100: #70AE85;
+    --color-verde-300: #5A8C69;
+    --color-verde-500: #466850;
+    --color-verde-700: #2C4737;
+
+    --color-verdeOpaco-100: #C6EBC9;
+    --color-verdeOpaco-300: #9EBCA0;
+    --color-verdeOpaco-500: #768E78;
+    --color-verdeOpaco-700: #505F52;
+    
+}
+
+.hamburger {
+    padding-top: 2px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.hamburger:hover {
+    opacity: 0.9;
+}
+
+.hamburger.is-active:hover {
+    opacity: 0.9;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    @apply bg-white;
+}
+
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    @apply bg-white;
+    width: 40px;
+    height: 4px;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger-inner::before {
+    top: -10px;
+}
+
+.hamburger-inner::after {
+    bottom: -10px;
+}
+
+.hamburger--squeeze .hamburger-inner {
+    transition-duration: 0.075s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--squeeze .hamburger-inner::before {
+    transition:
+        top 0.075s 0.12s ease,
+        opacity 0.075s ease;
+}
+
+.hamburger--squeeze .hamburger-inner::after {
+    transition:
+        bottom 0.075s 0.12s ease,
+        transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--squeeze.is-active .hamburger-inner {
+    transform: rotate(45deg);
+    transition-delay: 0.12s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--squeeze.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    transition:
+        top 0.075s ease,
+        opacity 0.075s 0.12s ease;
+}
+
+.hamburger--squeeze.is-active .hamburger-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+    transition:
+        bottom 0.075s ease,
+        transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
