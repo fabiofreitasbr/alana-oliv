@@ -19,7 +19,7 @@ $detalhe_esquerda = $template_uri . '/img/sobre-home-esquerda.jpg';
                 <p class="mb-4 leading-7 md:leading-9">
                     A <strong>multifaceted artist</strong> with a unique blend of <strong>intellectual curiosity and creative expression</strong>. Her <strong>inquisitive mind</strong> drives her to seek answers and knowledge in various fields such as <strong>neuroscience and psychology</strong>, while <strong>her passion for art and creativity</strong> inspires her to express ideas and emotions in an <strong>original and authentic</strong> way. With a <strong>dynamic and open approach</strong>, she is always ready for <strong>new discoveries and experiences</strong>, making her a complete and fascinating person.
                 </p>
-                <a href="<?php echo InfoVar::show('whatsapp'); ?>">
+                <a href="<?php echo get_page_link(InfoVar::show('about')); ?>">
                     <button class="flex flex-row gap-2 items-center py-2 px-4 md:py-2 md:px-8 mt-8 bg-marrom-900 text-bege-100 text-xs md:text-lg uppercase font-bold">
                         Learn More
                     </button>

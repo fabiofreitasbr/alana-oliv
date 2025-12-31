@@ -39,6 +39,11 @@ $argVar = array(
 
     'funcionamento1' => 'Segunda à Sexta de 09:00 à 18:00h',
     'funcionamento2' => 'sábado de 09:00 às 13h exceto feriados.',
+
+    'home' => 4,
+    'about' => 7,
+    'services' => 9,
+    'contact' => 11,
 );
 
 InfoVar::save($argVar);
