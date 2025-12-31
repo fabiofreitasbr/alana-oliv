@@ -34,12 +34,12 @@ $logo_white = $template_uri . '/img/logo.png';
                             <span class="break-all"><?php echo esc_html(InfoVar::show('emailShow')); ?></span>
                         </a>
                     </li>
-                    <li class="py-2">
+                    <!-- <li class="py-2">
                         <a href="<?php echo esc_url(InfoVar::show('whatsapp')); ?>" target="_blank" class="text-bege-100 hover:text-verde-500 transition-all flex gap-x-2 items-center">
                             <i class="fab fa-whatsapp w-4 h-4"></i>
                             <span class="break-all"><?php echo esc_html(InfoVar::show('whatsappShow')); ?></span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
 
@@ -56,9 +56,9 @@ $logo_white = $template_uri . '/img/logo.png';
                     <a href="<?php echo InfoVar::show('linkedin'); ?>" target="_blank" rel="noopener">
                         <i class="fab fa-linkedin text-white text-xl hover:text-verde-500"></i>
                     </a>
-                    <a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank" rel="noopener">
+                    <!-- <a href="<?php echo InfoVar::show('whatsapp'); ?>" target="_blank" rel="noopener">
                         <i class="fab fa-whatsapp text-white text-xl hover:text-verde-500"></i>
-                    </a>
+                    </a> -->
                     <!-- <a href="<?php echo InfoVar::show('youtube'); ?>" target="_blank" rel="noopener">
                         <i class="fab fa-youtube text-white text-xl hover:text-verde-500"></i>
                     </a> -->
